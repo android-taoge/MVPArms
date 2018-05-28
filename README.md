@@ -1,20 +1,23 @@
-<h1 align="center">MVPArms</h1>
+![Logo](image/arms_banner_v1.0.jpg)
 
 <p align="center">
-   <a href="https://bintray.com/jessyancoding/maven/MVPArms/2.3.1/link">
-    <img src="https://img.shields.io/badge/bintray-v2.3.1-brightgreen.svg" alt="Latest Stable Version" />
+   <a href="https://bintray.com/jessyancoding/maven/MVPArms/2.4.1/link">
+    <img src="https://img.shields.io/badge/Jcenter-v2.4.1-brightgreen.svg?style=flat-square" alt="Latest Stable Version" />
   </a>
   <a href="https://travis-ci.org/JessYanCoding/MVPArms">
     <img src="https://travis-ci.org/JessYanCoding/MVPArms.svg?branch=master" alt="Build Status" />
   </a>
-  <a href="https://developer.android.com/about/versions/android-4.0.3.html">
-    <img src="https://img.shields.io/badge/API-15%2B-blue.svg?style=flat-square" alt="Min Sdk Version" />
+  <a href="https://developer.android.com/about/versions/android-4.0.html">
+    <img src="https://img.shields.io/badge/API-14%2B-blue.svg?style=flat-square" alt="Min Sdk Version" />
   </a>
   <a href="http://www.apache.org/licenses/LICENSE-2.0">
     <img src="http://img.shields.io/badge/License-Apache%202.0-blue.svg?style=flat-square" alt="License" />
   </a>
+  <a href="https://www.jianshu.com/u/1d0c0bc634db">
+    <img src="https://img.shields.io/badge/Author-JessYan-orange.svg?style=flat-square" alt="Author" />
+  </a>
   <a href="https://shang.qq.com/wpa/qunwpa?idkey=1a5dc5e9b2e40a780522f46877ba243eeb64405d42398643d544d3eec6624917">
-    <img src="https://img.shields.io/badge/QQ群-301733278-ff69b4.svg" alt="QQ Group" />
+    <img src="https://img.shields.io/badge/QQ群-301733278-orange.svg?style=flat-square" alt="QQ Group" />
   </a>
 </p>
 
@@ -24,13 +27,13 @@
   </a>
 </p> 
 
-## A common Architecture for Android Applications developing based on MVP，integrates many Open Source Projects( like Dagger2,RxJava,Retrofit... ),to make your developing quicker and easier.
+## A common Architecture for Android Applications developing based on MVP, integrates many Open Source Projects (like Dagger2、RxJava、Retrofit ...), to make your developing quicker and easier.
 
 ## Architectural
 <img src="https://github.com/JessYanCoding/MVPArms/raw/master/image/Architecture.png" width="80%" height="80%">
 
 ## Usage
-> New Project
+> New Project (**The following steps are too cumbersome? Use the new function to [generate an app Module with one click](https://github.com/JessYanCoding/MVPArms-Module-Template), to avoid the cumbersome configuration of the project, delete the app module and arms Module that comes with the project, If you use this function in your new project, please remember to configure it [here](https://github.com/JessYanCoding/MVPArms/wiki#1.2)**)
 >> If you are building a new project, directly to the entire project **clone** (or download), as **app** as the main **Module** (It is recommended to remove the **arms Module** and use **Gradle** to [depend](https://github.com/JessYanCoding/MVPArms/wiki#1.1) on this framework remotely for easy updates), then the package name into their own package name , **app Module** contains the package structure can be used directly, a mainstream `MVP` +` Dagger2` + `Retrofit` +` RxJava` framework so easy to build successful, and now you refer **Mvp** Package under the **UserActivity** format,[Use Template to automatically generate MVP, Dagger2 related classes](https://github.com/JessYanCoding/MVPArmsTemplate),With access to [Wiki documents](https://github.com/JessYanCoding/MVPArms/wiki) slowly grasp the framework to see more articles as soon as possible in the project to use it, in practice, learning is the fastest
 
 > Old Project
@@ -83,8 +86,8 @@
 [<img src="image/xiaoding_foreman_logo.png" width="80" height="80">](http://www.dggxdjz.com) | [<img src="image/xiaoding_worker_logo.png" width="80" height="80">](http://www.dggxdjz.com) | [<img src="image/xiaoding_material_logo.png" width="80" height="80">](http://www.dggxdjz.com) | [<img src="image/top_net_work_logo.png" width="80" height="80">](http://www.dgg.net/appload.htm) | [<img src="image/zhibo_logo.png" width="80" height="80">](http://www.zhibocloud.cn/)| 
 **天天视频** | **天天直播** | **中斗通航** | **中斗祥云** | **麋鹿旅行** |
 [<img src="image/tiantian_video_logo.png" width="80" height="80">](http://sj.qq.com/myapp/detail.htm?apkName=com.dzwh.ttys) | [<img src="image/tiantian_live_logo.png" width="80" height="80">](http://www.25pp.com/android/detail_7611392/) | [<img src="image/tong_hang_logo.png" width="80" height="80">](https://fir.im/3176) | <img src="image/xiang_yun_logo.png" width="80" height="80">  | [<img src="image/mi_lu_logo.png" width="80" height="80">](http://android.myapp.com/myapp/detail.htm?apkName=com.elk.tourist) | 
-**汇财富** | **觅窝** | **(Internal App ...)** | **(In Progress App ...)** | **(Your App ...)** |
-[<img src="image/hui_cai_fu_logo.png" width="80" height="80">](http://android.myapp.com/myapp/detail.htm?apkName=com.tahone.client) | [<img src="image/mi_wo_logo.png" width="80" height="80">](http://miwo.ai/) | <img src="image/android_logo.png" width="80" height="80">  | <img src="image/android_logo.png" width="80" height="80"> | <img src="image/android_logo.png" width="80" height="80">|  
+**汇财富** | **觅窝** | **晒墨宝** | **(In Progress App ...)** | **(Your App ...)** |
+[<img src="image/hui_cai_fu_logo.png" width="80" height="80">](http://android.myapp.com/myapp/detail.htm?apkName=com.tahone.client) | [<img src="image/mi_wo_logo.png" width="80" height="80">](http://miwo.ai/) | [<img src="image/shaimobao_logo.png" width="80" height="80">](http://sj.qq.com/myapp/search.htm?kw=%E6%99%92%E5%A2%A8%E5%AE%9D)  | <img src="image/android_logo.png" width="80" height="80"> | <img src="image/android_logo.png" width="80" height="80">|
 
 ## Update
 * Tuesday, 26 September 2017: [**Cache**](https://github.com/JessYanCoding/MVPArms/blob/master/arms/src/main/java/com/jess/arms/integration/cache/)

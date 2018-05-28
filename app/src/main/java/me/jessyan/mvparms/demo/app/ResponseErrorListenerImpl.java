@@ -1,18 +1,18 @@
-/**
-  * Copyright 2017 JessYan
-  *
-  * Licensed under the Apache License, Version 2.0 (the "License");
-  * you may not use this file except in compliance with the License.
-  * You may obtain a copy of the License at
-  *
-  *      http://www.apache.org/licenses/LICENSE-2.0
-  *
-  * Unless required by applicable law or agreed to in writing, software
-  * distributed under the License is distributed on an "AS IS" BASIS,
-  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  * See the License for the specific language governing permissions and
-  * limitations under the License.
-  */
+/*
+ * Copyright 2017 JessYan
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
 package me.jessyan.mvparms.demo.app;
 
 import android.content.Context;
@@ -45,7 +45,8 @@ public class ResponseErrorListenerImpl implements ResponseErrorListener {
     @Override
     public void handleResponseError(Context context, Throwable t) {
         Timber.tag("Catch-Error").w(t.getMessage());
-        //这里不光是只能打印错误,还可以根据不同的错误作出不同的逻辑处理
+        //这里不光只能打印错误, 还可以根据不同的错误做出不同的逻辑处理
+        //这里只是对几个常用错误进行简单的处理, 展示这个类的用法, 在实际开发中请您自行对更多错误进行更严谨的处理
         String msg = "未知错误";
         if (t instanceof UnknownHostException) {
             msg = "网络不可用";
@@ -75,5 +76,4 @@ public class ResponseErrorListenerImpl implements ResponseErrorListener {
         }
         return msg;
     }
-
 }
